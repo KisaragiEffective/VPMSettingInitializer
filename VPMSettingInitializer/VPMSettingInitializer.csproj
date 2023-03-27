@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>VPMSettingInitializer2</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="VRC.PackageManagement.Core">
+            <HintPath>$(HOME)/.dotnet/tools/.store/vrchat.vpm.cli/0.1.13/vrchat.vpm.cli/0.1.13/tools/net6.0/any/vpm-core-lib.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
